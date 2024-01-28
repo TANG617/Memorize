@@ -149,8 +149,8 @@ for line in file.readlines():
         words = line.strip()
         data = json.loads(words)
         # if(int(data['wordRank']) == 100): break
-        # cnt = cnt+1
-        # print(cnt)
+        cnt = cnt+1
+        print(cnt)
         t_block = d_block(data)
         for i in replace_list:
             t_block = t_block.replace(i[0], i[1])
