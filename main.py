@@ -1,5 +1,5 @@
-filename = "IELTSluan_2.json"
-tex_filename = "IELTS_Ver2_00.tex"
+filename = "GRE_2.json"
+tex_filename = "GRE_ver2_00.tex"
 import json
 from ollama_link import llama_rank, llama_sentence
 
