@@ -1,5 +1,5 @@
-filename = "GRE_2.json"
-tex_filename = "GRE_ver2_00.tex"
+filename = "source/GRE_2.json"
+tex_filename = "tex/GRE_ver2_00.tex"
 import json
 from ollama_link import llama_rank, llama_sentence
 
@@ -8,15 +8,15 @@ replace_list = [  ['[','【'],[']','】'],['%','\%'],['&','\&'],['_','-']] #,['$
 level_list = [ #level: sentence/need_chinese?: phase/need_chinese?
     [[0,0],
      [0,0],
-     0
+     0# level 0
      ],
     [[1,0],
      [1,0],
-     0
+     0# level 1
      ],
     [[2, 0],
      [2, 0],
-     0
+     0# level 2
      ],
     [[3, 0],
      [3, 0],
