@@ -5,7 +5,7 @@ from ollama_link import llama_rank, llama_sentence
 
 file = open(filename, 'r', encoding='utf-8')
 replace_list = [  ['[','【'],[']','】'],['%','\%'],['&','\&'],['_','-']] #,['$','\$']
-level_list = [ #num chinese / sen pha
+level_list = [ #level: sentence/need_chinese?: phase/need_chinese?
     [[0,0],
      [0,0],
      0

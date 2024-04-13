@@ -60,24 +60,10 @@ def llama_sentence(word):
 
     pattern = r'\n\s*(.*)'
     ans = response['message']['content']
-    # print(ans)
     try:
         match = re.search(pattern, ans)[0]
-        # match.replace("\n" , ' ')
-        # match.removesuffix('\n\n')
-        # match[3]
         print(match[2:])
         return match[2:]
     except:
         print(ans)
         return ans
-
-# llama_sentence("covin")
-    # matches = re.findall(pattern, ans)
-    #
-    # try:
-    #     print("【" + word + ":" + matches[0] + "】")
-    #     return matches[0]
-    # except:
-    #     print("ERROR")
-    #     return 0
