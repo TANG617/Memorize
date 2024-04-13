@@ -1,10 +1,13 @@
-# MEMORIZE
+# MEMORIZE: Local Language Model Assisted Word Memorization
 
 ![Screenshot 2024-04-13 at 13.20.09](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413132042lQsJPuScreenshot%202024-04-13%20at%2013.20.09.png)
 
-**Local Language Model Assisted Word Memorization**
 
-Optimized the workflow of memorizing words personally.
+
+- Optimize the workflow personally, display any information you need
+- Deploy locally without requirements of any API
+- Choose from a variety of LLMs, including LLAMA2, Phi, etc
+- Adapt for multi-language including but not limited to English or Chinese
 
 ## PipeLine
 
@@ -16,7 +19,7 @@ Optimized the workflow of memorizing words personally.
 
 ### Example
 
-| ![image-20240413135605874](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413135605rffN35image-20240413135605874.png) | Word itself <br />Upper number indicates the level of difficulty<br />Sentences corresponding to its difficulty <br />Phases corresponding to its difficulty |
+| <img src="https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413135605rffN35image-20240413135605874.png" alt="image-20240413135605874" style="zoom:50%;" /> | Word itself <br />Upper number indicates the level of difficulty<br />Sentences corresponding to its difficulty <br />Phases corresponding to its difficulty |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 #### Recommandation
@@ -28,6 +31,9 @@ Optimized the workflow of memorizing words personally.
 ## TODO
 
 - More features
+  -  mark the level of memorization 
+  - real-time optimization
 - Convert each option to paramter without modifying the code
 - Better prompts for LLM
 - Store generated text to database rather than stream into `.tex` file ( reduce failure)
+- Convert to Anki format
