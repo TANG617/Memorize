@@ -16,7 +16,7 @@ Optimized the workflow of memorizing words personally.
 
 ### Example
 
-| ![image-20240413135605874](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413135605rffN35image-20240413135605874.png) | Word itself Upper number indicates the level of difficulty <br />Upper number indicates the level of difficulty<br />Sentences corresponding to its difficulty <br />Phases corresponding to its difficulty |
+| ![image-20240413135605874](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413135605rffN35image-20240413135605874.png) | Word itself <br />Upper number indicates the level of difficulty<br />Sentences corresponding to its difficulty <br />Phases corresponding to its difficulty |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 #### Recommandation
