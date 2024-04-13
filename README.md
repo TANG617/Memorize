@@ -9,6 +9,14 @@
 - Choose from a variety of LLMs, including LLAMA2, Phi, etc
 - Adapt for multi-language including but not limited to English or Chinese
 
+## Project Struct
+
+- `source`: Source `json`file of vocabulary
+- `tex`: Generated tex file
+- `pdf`: Generated pdf file
+  - `noline`: No dividing line between 2 words
+  - `nochinese`: No Chinese meaning of the word itself
+
 ## PipeLine
 
 ![image-20240413134452977](https://cdn.jsdelivr.net/gh/TANG617/images@master/20240413134453pnquDSimage-20240413134452977.png)
